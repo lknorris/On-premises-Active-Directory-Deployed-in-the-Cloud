@@ -24,10 +24,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Through Azure, install a recourse group and create a domain controller and client. 
+- Step 2: Ensure communication by disabling the firewall and configure network settings.
+- Step 3: Set up Active Directory on the domain controller and create a domain user.
+- Step 4 With Powershell, create some domain users and log into the client with one of the newly created profiles. Next, experiment with giving permissions to the domain user through group policy.
 
 <h2>Deployment and Configuration Steps</h2>
 
